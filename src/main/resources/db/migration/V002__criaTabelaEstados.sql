@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `estudo`.`ESTADOS` (
-  `id_estados` INT NOT NULL AUTO_INCREMENT,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(30) NOT NULL,
   `sigla` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id_Estados`))
+  PRIMARY KEY (`id`))
 ENGINE = InnoDB
